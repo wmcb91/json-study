@@ -38,7 +38,26 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{
+    "Jason has": {
+          "A Cat": "Mr.Kitty",
+          "Roommates":
+                ["Dave",
+                "Miller"
+                ],
+          "A Love of":
+                [
+                "Red Sox",
+                "Patriots",
+                "Bruins"
+                ],
+          "Places recently lived":
+                [
+                "123 Fake street",
+                "2 Munchinfo Road"
+                ],
+    }
+}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +65,31 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{
+    "Jason has": {
+          "A Cat": "Mr.Kitty",
+          "Roommates":
+                {"Dave": {
+                  "Pets": {
+                    "Bob": ["Goldfish", "red"],
+                    "Mr.MagicNibbles": ["Goldfish", "yellow", "biter"]
+                    }
+                },
+                "Miller":
+                },
+          "A Love of":
+                [
+                "Red Sox",
+                "Patriots",
+                "Bruins"
+                ],
+          "Places recently lived":
+                [
+                "123 Fake street",
+                "2 Munchinfo Road"
+                ],
+    }
+}
 ```
 
 ## JSON Methods
@@ -54,7 +97,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+    No.  You know that.
 ```
 
 ## JSON Comments
@@ -62,5 +105,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+  Nah.
 ```
